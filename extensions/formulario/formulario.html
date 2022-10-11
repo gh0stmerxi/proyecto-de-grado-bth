@@ -1,0 +1,42 @@
+<html>
+
+    <head>
+       <title>formulario</title>
+    </head>
+
+    <body>
+        <h2>
+            registro de usuario  
+        </h2>
+        <form action="controlador.php" method="post">
+
+        <label for="">nombre</label>
+        <input type="text" name="nombre"><br>
+        <label for="">apellidos</label>
+        <input type="text" name="apellido"><br>
+        <label for="">edad</label>
+        <input type="number" name="edad"><br>
+        <label for="">color favorito</label>
+        <input type="color" name="color"><br>
+        <label for="">genero</label><br>
+        <label for="">masculino</label>
+        <input type="radio" name="sexo"><br>
+        <label for="">femenino</label>
+        <input type="radio" name="sexo"><br>
+        <label for="">nacionalidad</label>
+        <select name="pais" id="#">
+            <option value="1">bolivia</option>
+            <option value="2">argentina</option>
+            <option value="3">mexico</option>
+            <option value="4">colombia</option>
+        </select><br>
+        <label for="">que te gusta</label><br>
+        <input type="checkbox">deporte<br>
+        <input type="checkbox">musica<br>
+        <input type="checkbox">lectura<br>
+        <input type="checkbox">pintura<br>
+        <input type="submit" value="registrar"><br>
+        <input type="reset" value="limpiar "><br>
+     </form>
+    </body>
+</html>
